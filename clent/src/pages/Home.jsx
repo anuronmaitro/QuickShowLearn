@@ -1,10 +1,14 @@
 import React from 'react'
+import HeroSection from '../components/HeroSection'
+import FeaturedSection from '../components/FeaturedSection'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to Quick Show</h1>
-    </div>
+    // mounting header
+    <>
+      <HeroSection/>
+      <FeaturedSection/>
+    </>
   )
 }
 
